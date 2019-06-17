@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #2E2E2E;
+            color: pink;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            font-size: 1em;
+        }
+
+        div {
+            font-size: 1em;
+
+        }
+
+        .column-right {
+            float: right;
+            padding-right: 0%;
+            padding-right: 0%;
+            width: 30%;
+        }
+
+        .column-left {
+            margin: 0;
+            float: left;
+            width: 60%;
+            padding-top: 8%;
+            margin-bottom: 3%;       
+
+ }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div.column-left> 
+
+                        <h5> &nbsp;&nbsp;&nbsp;&nbsp; < Image and Video Recognition! ></h5>
+
+
+        <div class="container mt-5">
+        <div class="row">
+        <div class="col-0">
+
+                        <!-- Input Method selection -->
+                        <select id="Image-Video" class="custom-select" type="file">
+                            <option selected disabled>Choose Input</option>
+                            <option>Webcam</option>
+                            <option>Image</option>
+                        </select>
+
+        </div>
+        <div class="col-8">
+
+                        <!-- Image Input selection -->
+                        <input id="Image-Select" class="form-control border-0" type="file" style="display:none">
+
+        </div>
+        <div class="col-1">
+
+                        <!-- Ouputs top 3 most likely image recognition -->
+                        <button id="Predict-Button" class="btn btn-dark" style="display:none">!!! Predict !!!</button>
+
+        </div>
+        </div>
+                <hr style="width:0%;"> 
+                <hr style="height:1em;"> 
+        <div class="row">
+        <div class="col-6">
+
+                        <!-- The video is sized to perfectly fit a full screen browser, while also keeping a relatively clean size if the browser is halfed in width. Changing the Height of the browser results in predicitons being hidden, Images keep their own aspect ratios and therefore the layout will adjust to the image. -->
+                        <h2 class=ml-3>< Preview ></h2>
+                        <img id="Chosen-Image" class="ml-3" src="" />
+                        <video id="video" width="750" height="520" autoplay style="display:none"></video>
+
+        </div>
+        </div>
+                <hr style="width:0%;"> 
+                <hr style="height:0em;"> 
+        <div class="row">
+        <div class="col">
+
+                        <h2 class="ml-3">< Predictions ></h2>
+                        <ol id="Predictions"></ol>
+
+
+        </div>
+        </div>
+        </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.1.3/dist/ml5.min.js"></script>
+    <script src="new.js"></script>
+
+</body>
+</html>
