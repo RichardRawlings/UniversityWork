@@ -1,0 +1,12 @@
+365 Days on Earth, setting earth to 0.05;
+
+Mercury 88 days, roughly 5 times as  fast so,
+
+Mercury 88 days : 0.25
+Venus 224 days  : 0.125
+Earth 365 days : 0.05
+Mars 690 (scaling d own to 500) days : 0.04
+Jupiter 4000 (scaling down to 1000) days : 0.02
+Saturn  10000 (scaling  down to 2500) days : 0.0066
+Uranus 30000 (scaling down to 7500) days : 0.0022
+Neptune 60000 (scaling down to 15000) days : 0.0011

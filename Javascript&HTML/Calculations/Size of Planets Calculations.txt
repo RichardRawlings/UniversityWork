@@ -1,0 +1,22 @@
+Diameters of Planets
+
+Sun - 1,400,000km  (using  125,000km as  scale to be reasonable)
+Mercury -  5,000km (1/25th of  Sun's size)
+Venus - 12,000km (1/10th of Sun's size)
+Earth - 13,000km (1/10th of Sun's size) (Will increase size  slightly)
+Mars - 7,000km (1/18th of Sun's size)
+Jupiter - 140,000km (using  30,000km) (1/4th of Sun's size)
+Saturn - 120,000km (using 25,000km) (1/5th of Sun's  size)
+Uranus - 50,000km (using 15,000km) (1/8th of Sun's  size)
+Neptune - 50,000km  (using 15,000km) (1/8th  of  Sun's size)
+
+Meaning if Sun's size is set to 50,
+
+Mercury size = 2
+Venus size = 5
+Earth size  5
+Mars size = 3
+Jupiter =  12.5
+Saturn = 10
+Uranus = 6
+Neptune = 6

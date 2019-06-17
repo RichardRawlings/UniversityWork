@@ -1,0 +1,26 @@
+Planet Averages from Sun
+
+Mercury  - 57mil  KM - (Using 50mil KM)
+Venus -  108mil KM - (Using 100mil KM)
+Earth  - 150mil KM - (Using 150mil KM)
+Mars - 228mil KM - (Using 250mil KM)
+Jupiter - 779mil KM - (Using 400mil KM)
+Saturn - 1.43bil KM - (Using 550mil KM)
+Uranus - 2.88bil KM - (Using 700mil KM)
+Neptune - 4.50bil KM - (Using 850mil KM)
+Pluto - Not a damn planet
+
+Scaling down Jupiter-Saturn-Uranus-Neptune distances for actual model, 4.50bil is too long  comparatively.
+
+Assuming Mercury is being set as 'position.x = 30;'
+
+then positions need to be set as :
+
+Mercury position.x =  60; 30
+Venus position.x =  120; 60
+Earth position.x = 180; 90
+Mars position.x = 300; 150
+Jupiter position.x = 480; 240	
+Saturn position.x = 660; 330
+Uranus position.x = 840; 420
+Neptune  position.x = 1020; 510

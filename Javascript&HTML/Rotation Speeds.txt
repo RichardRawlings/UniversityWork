@@ -1,0 +1,10 @@
+Planet Day Lengths
+
+Mercury day : 1408 hours  (Scaling down to 140)		= 5.8 Rotation Speed		1 /  5.8  =  0.17
+Venus : 5832 (Scaling down to 580)			= 24 Rotation Speed		1 / 24  =   0.41
+Earth : 24                                              = 1.0 Rotation speed		1 / 1  =  1
+Mars : 25						= 1.04  Rotation Speed		1 / 1.04  =  0.96
+Jupiter : 10						= 0.35 Rotation Speed		1 / 0.35  =  2.8
+Saturn : 11						= 0.4 Rotation Speed		1 / 0.4  =  2.5
+Uranus: 17						= 0.7 Rotation Speed		1 / 0.7  =  1.42
+Neptune : 16						= 0.65 Rotation Speed		1 / 0.65  =  1.53
